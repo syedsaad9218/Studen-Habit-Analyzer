@@ -21,8 +21,7 @@ The **Student Habit Analyzer** is a machine learning project that predicts stude
 
 ---
 
-## 📂 Dataset  
-You can either:  
+## 📂 Dataset   
 - Created a **mock dataset** with synthetic data representing student habits and performance. 
 - Generate synthetic data in Python.  
 
@@ -42,4 +41,7 @@ You can either:
 3. **EDA**: Visualize trends and correlations between habits and performance  
 4. **Model Training**: Train ML models to classify performance (Low / Medium / High)  
 5. **Prediction**: Given new habit data → predict performance  
-6. **Output**: Prediction results + feature importance insights  
+6. **Output**: Prediction results + feature importance insights
+
+![Architecture Diagram](diagram.png)
+
