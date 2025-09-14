@@ -32,7 +32,7 @@ def predict():
         input_data_scaled = scaler.transform(input_data)
 
         # Make prediction
-        prediction = model.predict(input_data)[0]  # RF used here
+        prediction = model.predict(input_data_scaled)[0]  # RF used here
         prediction_label = label_encoder.inverse_transform([prediction])[0]
 
         return render_template("index.html", result=f"Predicted Performance: {prediction_label}")
